@@ -1,0 +1,31 @@
+{
+    "name": "Harmonics_Arcade",
+    "description": "Harmonics: a shared platform puzzle about breathing and cooperation.",
+    "dependencies": {
+        "device": "*"
+    },
+    "files": [
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "actors.ts",
+        "controls.ts",
+        "physics.ts",
+        "render.ts",
+        "rooms.ts",
+        "state.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "4.1.32",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "tsprj",
+    "languageRestriction": "javascript-only",
+    "theme": "bubblegum"
+}
